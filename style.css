@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(108, 11, 182);
+  overflow: hidden;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 3em;
+}
+
+.pole {
+  height: 400px;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  padding: 0.3rem;
+  border-radius: 30px;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: auto;
+  width: 6rem;
+  background-color: black;
+  border-radius: 30px;
+}
+
+.red {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 20px 0 30px 0;
+}
+
+.yellow {
+  background-color: rgb(15, 15, 15);
+  border-radius: 50%;
+  margin: 20px 0 30px 0;
+  height: 80px;
+  width: 80px;
+}
+
+.green {
+  background-color: rgb(15, 15, 15);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  margin: 20px 0 30px 0;
+}
+
+.red i {
+  color: rgb(15, 15, 15);
+}
+
+.green i {
+  color: rgb(15, 15, 15);
+}
